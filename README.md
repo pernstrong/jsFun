@@ -1,4 +1,4 @@
-# jsFun
+<!-- # jsFun -->
 
 This repo contains practice exercises for fundamental JavaScript concepts including scope, prototype methods, and context. Each concept has a corresponding folder with a README that includes instructions for solving each type of problem.
 
@@ -50,4 +50,3 @@ Now, whenever instructors tell you to pull down changes, there are two steps:
 2. Run `git pull turing master`
 
 Check out [this video](https://vimeo.com/turing/review/388550182/34823726eb) if you need help!
-

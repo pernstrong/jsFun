@@ -12,7 +12,7 @@ const scope = {
 
       function beautifyPerson() {
         // Log A: personB
-        
+
         if (personB.includes('B')) {
           personB = person;
           personC = personB;
@@ -29,7 +29,12 @@ const scope = {
 
     // Log D: personC
 
-    const result = 'REPLACE WITH YOUR RESULT HERE';
+    const result = [
+      { 'A': 'Ben' },
+      { 'B': 'CardiB' },
+      { 'C': 'CardiB' },
+      { 'D': 'Paul' }
+    ];
     return result;
 
     // Annotation:
@@ -63,7 +68,12 @@ const scope = {
 
     // Log D: number
 
-    const result = 'REPLACE WITH YOUR RESULT HERE';
+    const result = [
+      { 'A': 75 },
+      { 'B': 64 },
+      { 'C': 64 },
+      { 'D': 30 }
+    ];
     return result;
 
     // Annotation:
@@ -97,7 +107,12 @@ const scope = {
 
     // Log D: greeting
 
-    const result = 'REPLACE WITH YOUR RESULT HERE';
+    const result = [
+      { 'A': 'Yo' },
+      { 'B': 'Hey' },
+      { 'C': 'Hey' },
+      { 'D': 'Hello' }
+    ];
     return result;
 
     // Annotation:
@@ -131,7 +146,12 @@ const scope = {
 
     // Log D: greeting
 
-    const result = 'REPLACE WITH YOUR RESULT HERE';
+    const result = [
+      { 'A': 'hi' },
+      { 'B': 'welcome' },
+      { 'C': 'welcome' },
+      { 'D': 'howdy' }
+    ];
     return result;
 
     // Annotation:
@@ -163,7 +183,12 @@ const scope = {
 
     // Log D: name
 
-    const result = 'REPLACE WITH YOUR RESULT HERE';
+    const result = [
+      // { 'A': 'Brittany' },B
+      // { 'B': 'Nathaniel' },N
+      // { 'C': 'Brittany' },N
+      // { 'D': 'Brittany' }B
+    ];
     return result;
 
     // Annotation:
@@ -198,7 +223,13 @@ const scope = {
 
     // Log E: dog
 
-    const result = 'REPLACE WITH YOUR RESULT HERE';
+    const result = [
+      { 'A': 'Spot' },
+      { 'B': 'Spot' },
+      { 'C': 'Biscuit' },
+      { 'D': 'Biscuit' },
+      { 'E': 'Biscuit' }
+    ];
     return result;
 
     // Annotation:
@@ -228,7 +259,12 @@ const scope = {
 
     // Log D: fruit
 
-    const result = 'REPLACE WITH YOUR RESULT HERE';
+    const result = [
+      // { 'A': 'mango' },
+      // { 'B': 'strawberry' },
+      // { 'C': 'strawberry' },
+      // { 'D': 'strawberry' }
+    ];
     return result;
 
     // Annotation:
@@ -315,7 +351,7 @@ const scope = {
       // Log B: toppings
       var toppings = 'chipotle sauce';
 
-      if (toppings === 'chipotle sauce') { 
+      if (toppings === 'chipotle sauce') {
         sandwich = 'not a mediocre sandwich';
       }
 
@@ -518,7 +554,7 @@ const scope = {
       // Log A: kid
       wildKids.push(kid);
       // Log B: wildKids
-  
+
       let drawOnTheWall = () => {
         let myKid = 'Mandy';
         // Log C: myKid
@@ -556,7 +592,7 @@ const scope = {
       // Log B: myName
 
       let innerFunc = () => {
-        let myName = 'Tesla'; 
+        let myName = 'Tesla';
         // Log C: myName
       };
 
